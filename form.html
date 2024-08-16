@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HOME PAGE
+        </title>
+        <style>
+            body{
+                background-image: url("pic.jpg");
+                background-repeat: no-repeat; 
+                background-position: center;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+            }
+            input{
+                background-color:rgba(255, 255, 255, 0);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin: 8px;
+                border: none;
+                color: white;
+                height:30px;
+                width: 95%;
+                padding: 5px;
+            }
+            input::placeholder{
+                color: black;
+            }
+            input:hover{
+                cursor: pointer;
+                outline: none;
+                
+            }
+            .form{
+                background-color:rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 600px;
+                padding: 15px;
+                margin-top: 30px;
+                opacity: 1s;
+            }
+            button{
+                background-color: lightgreen;
+                color:black;
+                border: none;
+                padding: 15px;
+                width: 98%;
+                font-size: 15px;
+                font-family: sans-serif;
+                font-weight: bold;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+            button:hover{
+                background-color: lightseagreen;
+                transition-delay: 0s;
+                color:white;
+            }
+            label{
+                color:whitesmoke;
+                float: left;
+                font-size: 20px;
+                font-family: sans-serif;
+                margin-left: 10px;
+            }
+            h1{
+                color:whitesmoke;
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <div class="form">
+<h1>Registration Form</h1>
+<form>
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your name"><br>
+    <label>Address</label>
+    <input type="text" placeholder="Enter address"><br>
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email"><br>
+    <label>Password</label>
+    <input type="password" placeholder="Set your password"><br>
+    <button>Create Account</button>
+</form>
+        </div></center>
+    </body>
+</html>
